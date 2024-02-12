@@ -14,7 +14,7 @@ Since the command 'module avail' takes a while to load, we can just run it once 
 An example file is here.            
 *Remember to update the modules.txt file once a while since we keep deploying new tools/pipelines*       
 ```shell
-# set alias
+# set alias in .bashrc file
 alias mod='cat /cluster/tufts/xli37/modules.txt'
 # Then we can just do
 mod
