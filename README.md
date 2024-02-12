@@ -43,14 +43,14 @@ test GPC
 #!/bin/bash
 #SBATCH -J SJob
 #SBATCH --time=00-1:00:00
-#SABTCH -p gpu
-#SABTCH --gres=gpu:2
-#SABTCH -n 2
-#SABTCH --mem=8g
-#SABTCH --output=MyJob.%j.%N.out
-#SABTCH --error=MyJob.%j.%N.err
-#SABTCH --mail-type=ALL
-#SABTCH --mail-user=xue.li37@tufts.edu
+#SBATCH -p gpu
+#SBATCH --gres=gpu:2
+#SBATCH -n 2
+#SBATCH --mem=8g
+#SBATCH --output=MyJob.%j.%N.out
+#SBATCH --error=MyJob.%j.%N.err
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=xue.li37@tufts.edu
 module load R/4.3.0
 module load anaconda/2023.07
 
