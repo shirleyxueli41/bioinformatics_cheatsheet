@@ -1,0 +1,310 @@
+
+------------------------------------------------------------------- /usr/share/Modules/modulefiles --------------------------------------------------------------------
+dot         module-git  module-info modules     null        use.own
+
+-------------------------------------------------------------------------- /etc/modulefiles ---------------------------------------------------------------------------
+mpi/openmpi-x86_64
+
+---------------------------------------------------------------- /opt/shared/Modules/modulefiles-rhel6 ----------------------------------------------------------------
+8.1.0                                          gnu-parallel/20150122                          pgi/12.10(default)
+abaqus/2016(default)                           golang/1.14.2                                  pgi/13.6
+abaqus/2021                                    gpaw/0.4.2627                                  pgi/13.8
+abaqus/2022                                    gpaw-mpi/0.4.2627                              phenix/1.13
+abaqus/6.11-2                                  graphmap/0.3.0                                 phred/0.0
+abaqus/6.13-1                                  graphviz/2.40.1                                PhyML/3.1
+abaqus/6.14-1                                  gridMathematicaServer/8.0                      picard/1.139
+abaqus/V6R2017                                 gridMathematicaServer/9.0.1                    picard/2.8.0
+abaqus/V6R2018                                 gromacs/4.5.5(default)                         pilon/1.22
+ABySS/1.5.2                                    gromacs/4.6.1                                  plink/1.06
+afni/2014-01-28(default)                       gromacs/4.6.1-slurm                            plink/1.90b5
+amber/12(default)                              gromacs/4.6.5                                  plink2/2.0
+amber/12.gpu                                   gromacs/4.6.5d                                 plinkseq/0.10
+amber/14                                       gromacs/4.6.5-gls                              plumed/2.0.2(default)
+anaconda/2                                     gromacs/4.6.5+plumed                           plumed/2.0.3
+anaconda/3                                     gromacs/4.6.7                                  plumed/2.0.5
+ancestrymap/6210                               gromacs/4.6.7-gpu                              plumed/2.1.3
+ansys/14.5                                     gromacs/5.0.1                                  plumed/2-2.0-hrex
+ansys/15                                       gromacs/5.1.0                                  poppler/0.24.5(default)
+ansys/16.2                                     gromacs/5.1.4                                  poppler/0.28.1
+ansys/17.2                                     gromacs/5.1.4-gpu                              povray/3.6.1
+ansys/18.2                                     gromacs-plumed-libmatheval/2014-06-17(default) proj/6.3.2
+ansys/19.2(default)                            gsl/1.15                                       proj4/4.4
+ansys/19.3                                     gsl/1.9                                        proot/5.1.0
+ansys/21.2                                     gurobi/6.5.1                                   protobuf/2.6
+ansys/22.2                                     gurobi/7.5.1                                   PyRosetta/r55193
+ansys/test-debug-192                           gurobi/8.1.0                                   PyRosetta/r55194
+ant/1.8.2                                      gurobi/9.5.0                                   pythia/8219
+art/031114(default)                            haploview/4.1                                  pythia/8235
+aspera/3.5.4                                   hisat/2.0.5                                    python/2.6.5
+ATLAS/3.9.78                                   hisat/2.1.0                                    python/2.7.3(default)
+autoconf/2.69                                  hmmer/3.1b2                                    python/2.7.4
+bazel/0.3.2                                    HTSeq/0.5.4p5(default)                         python/2.7.6
+bcftools/1.2                                   HTSeq/0.6.1p1                                  python/3.5.0
+bcl2fastq/2.19                                 htslib/1.2.1                                   python/3.6.0
+beagle/1.0-cuda                                icc/10.1.017                                   pytorchcpu/1.0.1
+BEAST/1.10.1                                   iconv/1.14                                     pytorchgpu/1
+BEAST/1.10.4                                   idb/10.1.017                                   QIIME/1.5.0
+BEAST/1.8.4                                    idb/13.0                                       QIIME/1.6.0
+bedtools/2.17.0                                idl/8.4                                        QIIME/1.7.0
+bedtools/2.19.1                                ifc/2013_sp1                                   QIIME/1.8.0
+bedtools/2.26.0(default)                       IGV/1.5.30                                     QIIME/1.9.0(default)
+binutils/2.29.1                                ima/12_17_2009                                 qiime2/2017.7
+blacs/1.1                                      ima2/8.27.12                                   qiime2/2018.8
+BLAS/1.0                                       imagej/1.5.2                                   Qt/4.8.4
+BLAS/3.5.0                                     ImageMagick/6.9.5                              R/2.15.3
+blast/2.2.24                                   imod/4.9.12                                    R/3.0.1
+blast/2.2.31                                   imod/4.9.9                                     R/3.0.2
+blast/2.3.0                                    impute/2.0.3                                   R/3.0.3
+blast/2.8.1                                    intel/2013_sp1                                 R/3.1.0
+blat/20140708(default)                         intel/tbb433                                   R/3.2.2
+boost/1.49.0(default)                          interproscan/5.20                              R/3.2.5
+boost/1.54.0                                   intrapid/0.1                                   R/3.3.2
+boost/1.63.0-python3                           java/1.4.2                                     R/3.3.3
+bowtie/0.12.7(default)                         java/1.5.0                                     R/3.4.1
+bowtie/1.0.1                                   java/1.5.0_64bit                               R/3.4.3(default)
+bowtie/1.1.2                                   java/1.6.0                                     R/3.5.0
+bowtie/2.1.0                                   java/1.6.0_25                                  R/3.6.3
+bowtie2/2.2.3                                  java/1.6.0_25_64bit                            R/4.0.0
+buddy/2.4                                      java/1.6.0_64bit                               R/4.1.1
+bwa/0.7.17                                     java/1.7.0_51                                  randfold/2.0(default)
+bwa/0.7.9a                                     java/1.8.0_60                                  RAxML/8.2.12
+bzip2/1.0.6                                    julia/0.3                                      RepeatMasker/4.0.7
+caffe/20161026                                 jupyter/1.0(default)                           RetroSeq/20130716(default)
+caffe/20170201                                 jupyter/3.0                                    rnammer/1.2
+caffe/20170227                                 kallisto/0.45.0                                rnaseqmut/1.0
+casa/4.3.1                                     lammps/10Aug15                                 root/5.34.18
+cellranger/2.1.1                               lammps/16Mar18                                 rosetta/3.4
+cellranger/3.0.2                               lammps/27Aug13(default)                        rosetta/3.7
+cgal/4.4(default)                              lapack/3.2.1                                   rsem/1.2.14(default)
+chimera64/1.6.2                                lapack/3.4.0                                   rsem/1.3.1
+chimera64-osmesa/1.4.2577                      lapack/3.5.0                                   rserver/1.0
+circuitscape/4.0.5                             lastz/1.03                                     rstudio/0.96.331
+CirSeq/3                                       leptonica/1.70(default)                        rstudio/0.99.903
+cmake/2.8                                      levinlab/2                                     rstudio/1.1.383
+cmake/2.8.11.2                                 levinlab/3                                     rstudio/1.1.447
+cmake/3.2.1                                    lhapdf/6.1.6                                   salmon/0.13.1
+cmake/3.4.3                                    libffi/3.2.1                                   samtools/0.1.18(default)
+cnssolve/1.3                                   libmatheval/1.1.11(default)                    samtools/0.1.19
+comp150dnn/2                                   libpcap/1.1.1                                  samtools/1.2
+comsol/4.3b1                                   mach/1.0.16                                    samtools/1.9
+comsol/4.4                                     MACS/1.4.2-1                                   SAS/9.3
+comsol/5.0                                     MAnorm/2014-04-03                              SAS/9.4(default)
+comsol/5.1                                     maple/18                                       sbcl/1.0.20
+comsol/5.2(default)                            maple/2016                                     sbcl/1.0.55
+comsol/5.2a                                    maple/2018                                     sbcl/1.0.56
+comsol/5.3                                     maple/2020                                     scalapack/1.8.0
+comsol/5.3a                                    maple/2021(default)                            Schrodinger/2012
+comsol/5.4                                     maq/0.7.1                                      Schrodinger/2015-4
+comsol/5.5                                     matcaffe/1.0                                   signalp/4.1
+comsol/5.6                                     mathematica/10.4.0                             silo/4.9.1
+comsol/6.0                                     mathematica/10.4.1                             singularity/2.6.1
+comsol/6.1                                     mathematica/11.0.0                             singularity/3.1.0
+cubit/12.2                                     mathematica/11.3.0                             singularity/3.5.3
+cubit/13.0                                     mathematica/12.0                               singularity/3.6.1
+cuda/10.0                                      mathematica/12.1(default)                      singularity/3.8.4(default)
+cuda/10.2                                      mathematica/12.2                               slurm-drmaa/1.0.7
+cuda/11.0                                      mathematica/12.3                               sniffles/1.0.10
+cuda/12.2                                      mathematica/13.0                               solar/4.2.7
+cuda/4.2.9                                     mathematica/13.1                               spades/3.12.0
+cuda/5.0.35                                    mathematica/13.2.1                             spark/2.0.1
+cuda/6.5.14                                    matlab/2016a                                   spark/2.3.0(default)
+cuda/7.5.18                                    matlab/2016b                                   sparsehash/2.0.2
+cuda/8.0.44                                    matlab/2017a(default)                          spice/ngspice-17
+cuda/9.0                                       matlab/2017b                                   sqlite3/3.33.0
+cudnn/5.1                                      matlab/2018a                                   squid/1.9g(default)
+cudnn/7.1                                      matlab/2019a                                   sra/2.10.8
+cufflinks/0.8.3                                matlab/2019b                                   sra/2.5.0
+cufflinks/2.0.0                                matlab/2020a                                   sra/2.9.2
+cufflinks/2.0.2(default)                       matlab/2020b                                   stack/1.7.1
+cufflinks/2.1.1                                matlab/2021a                                   stacks/1.12(default)
+cufflinks/2.2.1                                matlab/2022a                                   STAR/2.3.0e
+cula-dense/r15                                 mcce/2.2                                       STAR/2.5.2b(default)
+cula-sparse/s3                                 MCR/R2012a                                     STAR/2.6.1d
+curl/7.47.1                                    MCR/R2012b                                     STAR/2.7.0a
+Cytoscape/2.8.3                                MDAnalysis/0.8.1                               starccm/11.02.009
+datascience/1.0                                merlin/1.1.2                                   stata/13(default)
+diyabc/0.7.3                                   meshlab/1.3.2                                  stata/15
+dolfin/1.4.0(default)                          metal/2009-10-10                               stata/16
+eclipse/1.4.1                                  metal/2010-02-08                               stata/17
+eclipse/1.4.1-x86_64                           metal/2010-08-01                               structure/2.3.4
+eclipse/4.6.2-cpp                              metal/2011-03-25(default)                      structure-java/2.3.4
+eclipse/4.6.2-java                             mirdeep2/2.0.0.5(default)                      subread/1.5.1
+eigen/3.2.2(default)                           mirPRo/1.1.4                                   subread/1.6.3
+eigensoft/3.0                                  misopy/0.5.2(default)                          SuiteSparse/3.6.1
+eigensoft/4.2                                  mongoose/6.2                                   superlu/4.0
+elixir/1.8-dev                                 montage/5.0                                    swig/3.0.12
+erlang/21.0                                    mothur/1.25.1                                  swig/3.0.2(default)
+espresso/3.1.1                                 mothur/1.29.1                                  swmm5/5.1.13
+espresso/3.3.1                                 mothur/1.36.1(default)                         tablemaker/2.1.1(default)
+ess/13.09-1                                    mpc/0.8.1                                      tcltk/08.5.11-rhel6
+evolver/2.70                                   mpfr/2.4.2(default)                            tcltk/8.5.11
+exonerate/2.2.0(default)                       mpfr/3.1.2                                     tecplot/2013R1
+fastjet/3.2.0                                  mrbayes/3.1.2                                  tecplot/2015
+fastqc/0.11.5                                  msmbuilder/2.5.1(default)                      tecplot/2016(default)
+fastqc/0.11.8                                  msmbuilder/2.6.0                               tecplot/2019
+fastx/0.0.13                                   multiqc/1.7.0                                  tensorflow/11-python2.7
+fbat/2.0.3                                     muscle/3.8.31                                  tensorflow/11-python3.5
+fe-safe/5.4                                    mvapich2/1.6-1                                 tesseract/3.0.3rc1(default)
+ffmpeg/3.2.2                                   namd/2014-07-10                                test/4.8.1
+fftw/3.3.2(default)                            namd/2.12-mpi                                  texworks/0.6.2
+fftw/3.3.2-double                              namd/2.8(default)                              TGICL/2.1
+fftw/3.3.3                                     NCAR/5.2.1                                     tinker/7.1
+fftw/3.3.3-double                              nccl/2.7.8-1                                   tmhmm/2.0c_deprecated
+FigTree/1.3.1                                  neper/2.0.4                                    tmux/2.2
+fluxbox/1.3.7                                  netcdf/4.0.0                                   tophat/1.0.14
+freebayes/1.1.0                                netcdf/4.0.0-gcc                               tophat/2.0.10
+freesurfer/5.3.0(default)                      netcdf/4.0.0-pgi                               tophat/2.0.13
+fsl/5.0.6(default)                             netlogo/5.3.1-64                               tophat/2.0.9(default)
+fsl/5.0.9                                      NetPIPE/3.7.1(default)                         transdecoder/2.0
+g95/0.93                                       ngsp/1.0                                       trinity/10.15.15
+g95-64/0.93                                    ngsplot/ngsplot                                trinity/7.17.14
+gamess/2013-03-01                              npm/8.2.1                                      trinotate/2.0.2
+gam-ngs/gam-ngs                                oases/0.2.8                                    ufc/2.3.0(default)
+GATK/3.1-1(default)                            ont-guppy/3.3.0-cpu                            umfpack/5.5.1
+GATK/3.7                                       ont-guppy/3.3.0-gpu                            usearch/10.0.240
+gaussian/g09                                   OpenBLAS/0.2.19                                usearch/7.0.1001(default)
+gaussian/g16avx                                opencv/3.1.0                                   usearch/8.1.1861
+gaussian/g16avx2                               openmm/4.1.1(default)                          VASP/4.6
+gaussian/g16sse4_2                             openmm/5.1                                     VASP/5.4.1
+gcc/4.7.0                                      openmpi/1.10.1                                 vcftools/0.1.12b
+gcc/4.9.2                                      openmpi/1.10.2                                 vcftools/0.1.13(default)
+gcc/5.3.0                                      openmpi/1.6.3-gnu                              velvet/1.0.19
+gcc/7.3.0                                      openmpi/1.8.2(default)                         velvet/1.2.03
+gcta/1.25.2                                    openmpi/1.8.6                                  velvet/1.2.10
+gdal/1.10.1(default)                           openmpi/2.1.2                                  ViennaRNA/2.1.6(default)
+gdal/2.0.1                                     openmpi/4.0.4                                  vim/8.1
+gdal/2.1.3                                     OpenSees/2.5.0                                 visit/2.6.2
+gdal/2.4.4                                     OpenSees/2.5.0-MP                              vmd/1.9
+genetorrent/3.8.7                              OpenSees/r4985(default)                        Wavelab/850
+ghc/6.10.1                                     OpenSees/r4985-MP                              weka/3-6-10(default)
+git/v1.8.4.4(default)                          paml/4.8                                       wpp/1.1-2008.0/optimize
+git/v2.8.2.396                                 pandaseq/2.5(default)                          wpp/1.1-2008.0/optimize-min
+git-lfs/v2.4.2                                 paraview/3.8.1                                 wpp/2.0-2010.0/optimize
+glibc/2.14                                     paraview/4.4                                   wpp/2.0-2010.0/optimize-min
+glog/0.3.4                                     pbat/3.61                                      wpp/2.1.5
+gmp/4.3.2(default)                             pcre/8.38                                      xz/5.2.2
+gmp/6.0.0                                      pedcheck/1.1                                   yap/5.1.3
+gmsh/2.11.0                                    PEET/1_12.0                                    zlib/1.2.8
+GMT/4.5.5                                      PEET/1_13.0
+GMT/5.3.1(default)                             petsc/3.7.3
+
+------------------------------------------------------------------- /cluster/tufts/hpc/tools/module -------------------------------------------------------------------
+abaqus/2023                         freeglut/3.2.1                      libiconv/1.16                       openssl/1.1.1_gcc_9.3.0
+abaqus/2023_fortran                 freetype/2.11.0                     libiconv/1.16_gcc_9.3.0             orca/5.0.3
+agrep/3.41                          freetype/2.11.0_gcc_9.3.0           libicu/4.2.1                        orca/5.0.4
+alphafold/2.1.1                     fribidi/1.0.5                       libpng/1.6.37                       ORFfinder/0.4.3
+alphafold/2.2.0                     fsl/6.0.5                           libpng/1.6.37_gcc_9.3.0             orthofinder/2.5.4
+amber/22-cuda                       GATK/4.2.6.1                        libtiff/4.2.0                       pandoc/2.14
+amber/22-mpi                        gcam/5.3                            libtiff/4.3.0                       pango/1.42.0
+amber/22-omp                        gcam/5.4                            libuuid/1.0.3                       parallel/20200822
+amber/22-serial                     gcam/7.0                            libwebp/1.2.4                       PartitionFinder/2.1.1
+anaconda/2020.02                    gcc/11.2.0                          libx11/1.7.0                        pdsh/2.31
+anaconda/2021.05                    gcc/8.4.0                           libxaw3d/1.6.2                      perl/5.32.1
+anaconda/2021.11                    gcc/9.3.0                           libxi/1.7.6                         perl/5.34.0
+anaconda/2023.07.tuftsai            gdal/3.4.1                          libxkbcommon/0.7.1                  perl/5.34.0_gcc7.3.0
+anaconda/bio35                      gdal/3.4.3                          libxml2/2.9.10                      petsc/3.16
+annovar/202106                      gem/1.4.3                           libxml2/2.9.12                      plumed/2.6.3
+ansys/23.1                          geneious/2023.0.1                   libxml2/2.9.12_gcc_9.3.0            plumed/2.6.3_serial
+ansys_lib/2021.6                    genie/3.0.6                         libxpm/3.5.12                       proj/7.2.1
+apptainer/1.2.2-suid                genie/v6-24-06@v6-24-06             libxscrnsaver/1.2.2                 proj/8.1.0
+apptainer/1.2.4-no-suid             genie/v6-24-06@v6-24-06_atmo        llvm/12.0.1                         proj/8.1.0_gcc_9.3.0
+apptainer/1.2.4-suid                geos/3.8.1                          log4cpp/1.1.3                       protobuf/3.18
+apptainer/1.2.5-no-suid             geos/3.9.1                          log4cpp/1.1.3-gcc-4.8.5             pythia6/6.4.28
+archive/X27.1                       geos/3.9.2_gcc_9.3.0                lynx/2.8.9.1                        pythia6/6.4.28-gcc-4.8.5
+aria2/1.35.0                        gflags/2.2.2                        lzma/4.32.7                         python/3.10.4
+armadillo/10.5.0                    ghostscript/9.54.0                  m4/1.4.19                           python/3.8.8
+arpack-ng/3.8.0                     giflib/5.1.4                        mafft/7.481                         QE/6.7
+aspect/2.5.0                        git/2.31.0                          mamba/22.9.0-2                      QE/7.2
+aspect/2.6.0                        gl2ps/1.4.2                         maple/2022                          qiime2/2021.11
+aspera/3.7.7                        glib/2.56.1                         maple/2023                          R/3.4
+astral/5.7.8                        glib/2.66.7                         matlab/2023a                        R/3.4_dulla
+autodock/4.2.6                      glm/0.9.9.8                         matlab/2023b                        R/4.2.0
+autodock-gpu/develop                globalarrays/5.8                    maxent/3.4.4                        R/4.2.2
+automake/1.16.3                     globus-cli/3.3.0                    mesa/21.3.1                         R/4.3.0
+awscli/1.16                         globus-personal/3.2.0               mesa-glu/9.0.1                      rclone/1.51.0
+bc/1.07                             glog/0.4.0                          meson/0.55.1                        rclone/1.59.0
+bc/bc                               gmake/4.3                           metaphlan/2.6.0                     rclone/1.63.1
+bcftools/1.12                       gmltools/1.5.7                      micro/2.0.8                         readline/8.1
+beagle/3.1.2                        gnuplot/5.2.8                       miniconda/23.10                     relion/4.0
+binvox/1.35                         gnutls/3.6.15                       minimap2/2.15                       rename/1.6
+biobakery/workflows                 go/1.16.2                           molpro/2021.2.1_mpipr               resfinder/4.1.11
+bioperl/1.7.6                       go/1.19.6                           molpro/2021.2.1_socket              rgi/5.1.1
+blast-plus/2.11.0                   gobject-introspection/1.56.1        morpho/0.3.6                        rmate/1.5.10
+blender/3.4.1                       gromacs/2023.3_gcc_9.3.0            morpho/0.5.4                        rmats-turbo/4.0.2_ucs2
+blender/3.6.2                       gromacs/2023.3_gcc_9.3.0_cuda       morpho/0.5.5                        rmats-turbo/4.0.2_ucs4
+bmDCA/2024                          gsl/2.6                             mothur/1.44                         rmats-turbo/4.1.2
+boost/1.73.0                        gsl/2.7                             mothur/1.47                         rnammer/1.2_hpctools
+boost/1.75.0                        gstreamer/0.10                      mothur/1.48                         rocker/1.1.12
+bwtool/1.0                          gtest/1.10.0                        mugsy/1.2.3                         root/6.22.08
+cactus/gpu                          gtkplus/3.24.29                     multinest/201911                    root/6.22.08_pythia6
+caffe_unet/16.04.10.7               guile/2.2.6                         must/2023                           root/6.24.06
+cairo/1.16.0                        gurobi/10.0.1                       mysql/8.0.19                        rosetta/3.13
+cairo/1.16.0_ft_fc_png_X_pdf        hail/202106                         ncbi/14                             rosetta/3.13_mpi
+cairo/1.16.0_png                    harfbuzz/2.9.1                      ncbi-magicblast/1.5.0               rsem/1.3
+cairo/1.17.4_gcc_9.3.0              harfbuzz/2.9.1_gcc9.3.0             nco/5.0.1                           rsem/1.3.3
+cdo/1.9.3                           harfbuzz/5.1.0                      ncurses/5.9                         rserver/1.3.959
+cellprofiler/3.1.9                  hdf5/1.10.4                         ncurses/6.1                         rserver/2022.02.1-461
+cellprofiler/4.0.6                  hdf5/1.12.1                         ncurses/6.2                         rserver/2023.06.2-561
+cellprofiler/4.1.3                  hdf5/1.12.2_gcc_9.3.0               netcdf/4.7.4                        rsync/3.2.2
+cellprofiler/4.2.1                  hmmer/3.3                           netcdf/c-4.8.1                      rtadmin/2022
+cellranger-atac/1.2.0               hpctools/2023                       netcdf/fortran-4.5.2                rtadmin/2023
+chimera/1.15                        htslib/1.14_gcc_9.3.0               netcdf/fortran-4.5.3                ruby/3.0.0
+cmake/3.18                          htslib/1.9                          netlogo/6.1.0-64                    sabre/20130927
+cmake/3.23_gui                      hyper-shell/2.4.0                   nextflow/21.10.1                    salmon/1.6.0
+code-server/3.2.0                   hyphy/2.3.14                        nextflow/21.10.6                    scons/3.1.2
+condaenv/bracken                    hyphy/2.5.51                        nextflow/23.10.0                    screen/4.8.0
+ctffind/4.1.8                       icu4c/67.1                          nf-core/2.10                        sf/R_4.0.0
+cuda/11.6                           imagej/1.52a                        ngc/1.0                             spades/3.15.4
+cuda/11.7                           imagemagick/7.1.0                   ninja/1.10.1                        sqlite/3.37.1
+cuda_voxelizer/0.5.2                imake/1.0.7                         ninja/1.10.2                        squashfs/4.4
+cudnn/8.0.4-11.0                    imod/4.11.18                        nodejs/14.15.1                      stacks/2.53
+cudnn/8.9.5-11.x                    indelMINER/0.2                      npb/3.4.1                           stata/18
+cudnn/8.9.7-12.x                    intel/compilers_2022.0.1            nsight/2020                         suite-sparse/5.10.1
+curl/7.80.0_gcc_9.3.0               intel/mpi_2021.5.0                  nvhpc/21.2                          sumo/1.18
+cvs/1.12.13                         intel-oneapi-mkl/2021.1.1-gcc-9.3.0 nvhpc/22.1                          sundials/5.7.0
+dakota/6.13                         intel-oneapi-tbb/2021.1.1-gcc-9.3.0 nvhpc/22.3                          swig/4.0.2
+dos2unix/6.0.3                      iq-tree/1.6.12                      nvhpc/nvhpc-byo-compiler-21.2       tabix/20131216
+dos2unix/7.4.2                      iq-tree/2.1.3                       nvhpc/nvhpc-nompi-21.2              terachem/1.95A
+dssp/3.1.4                          isonet/0.2                          nvtop/1.1.0                         texlive/20210325
+EFDCplus/11.5                       jags/4.3.0                          octave/8.1.0                        tmux/3.1b
+eigen/3.4.0                         java/11.0.2                         ont-guppy/4.5.2-cpu                 trim-galore/0.6.4_dev
+elbencho/1.9.1                      java/15.0.2                         ont-guppy/4.5.2-gpu                 trimmomatic/0.38
+emacs/26.3                          julia/1.5.3                         ont-guppy/5.0.11-cpu                udunits/2.2.26
+emacs/27.1_ccgpu                    julia/1.6.0                         ont-guppy/5.0.11-gpu                udunits/2.2.28_gcc_9.3.0
+emacs/X26.3                         lammps/20210310                     openblas/0.3.10                     unifdef/2.12
+eman2/2.91                          lapack/3.9.0                        openblas/0.3.14                     valgrind/3.16.1
+fastjar/0.98                        ld_lib/2.2.21                       openblas/0.3.19                     vmd/1.9.4
+fastqc/0.11.9                       lftp/4.8.1                          opencv/4.5.1                        voxcraft/voxcraft-smi-v100
+fasttree/2.1.10                     lhapdf/6.3.0                        openmpi/3.1.2                       vscode_cli/1.77.3
+fftw/3.3.10                         lhapdf5/5.9.1                       openmpi/3.1.6                       xblas/1.0.248
+fftw/3.3.10_9.3.0                   lhapdf5/5.9.1-gcc-4.8.5             openmpi/3.1.6_slurm                 xerces/3.1.3
+Fiji/1.53t                          libctl/4.2.0                        openmpi/4.0.5                       xz/5.2.5_gcc_9.3.0
+Fiji/ImageJ                         libepoxy/1.4.3                      openmpi/4.1.1                       zip/3.0
+flash/1.2.11                        libgcrypt/1.10.2                    openmpi/4.1.2                       zlib/1.2.11
+fltk/1.3.7                          libgit2/1.1.0                       openmpi/4.1.2_slurm                 zlib/1.2.11_gcc_9.3.0
+fontconfig/2.13.94                  libgmp/4.1.4                        openmpi/4.1.4                       zmq/4.8.1
+fontconfig/2.13.94_gcc_9.3.0        libgpg-error/1.43                   openssl/1.1.1
+
+----------------------------------------------------------------------- /cluster/tufts/biocontainers/modules ------------------------------------------------------------------------
+alphafold/2.3.0               canu/2.2                      gatk4/4.3.0.0                 minimap2/2.26                 qiime2/2023.5                 spades/3.15.5
+alphafold/2.3.1               cellprofiler/4.2.6            guppy/6.4.6                   minipolish/0.1.3              qiime2/2023.7                 squid/1.5
+alphafold/2.3.2               cellranger/7.0.1              guppy/6.5.7                   mirdeep2/2.0.1.3              qiime2/2023.9                 star/2.7.10a
+angsd/0.939                   cellranger/7.1.0              hap.py/0.3.12                 mirge3/0.1.4                  qualimap/2.2.1                star/2.7.10b
+angsd/0.940                   cellranger-atac/2.0.0         hisat2/2.2.1                  mothur/1.46.0                 qualimap/2.3                  star/2.7.11a
+bcftools/1.13                 cellranger-atac/2.1.0         hmmer/3.3.2                   mothur/1.47.0                 raven-assembler/1.8.1         star/2.7.9a
+bcftools/1.14                 cufflinks/2.2.1               homer/4.11                    mothur/1.48.0                 raxml-ng-mpi/1.2.0            subread/1.6.4
+bcftools/1.17                 cutadapt/3.4                  htseq/2.0.2                   nextflow/23.10.0              relion/4.0.1                  subread/2.0.1
+beast2/2.6.3                  cutadapt/3.7                  humann/3.8                    nf-core/2.10                  rmats2sashimiplot/2.0.4       tmhmm/2.0c
+beast2/2.6.4                  diamond/2.0.15                hyper-shell/2.4.0             ngc/1.0                       rmats2sashimiplot/3.0.0       transdecoder/5.5.0
+beast2/2.6.6                  diamond/2.1.6                 impute2/2.3.2                 orthofinder/2.5.5             rnaquast/2.2.3                transdecoder/5.7.1
+bedops/2.4.39                 dorado/0.5.0                  kallisto/0.46.2               pandaseq/2.11                 r-scrnaseq/4.2.3              trim-galore/0.6.10
+bedtools/2.30.0               exonerate/2.4.0               kallisto/0.48.0               parabricks/4.0.0-1            r-scrnaseq/4.3.1              trim-galore/0.6.7
+bedtools/2.31.0               fasta3/36.3.8                 macs2/2.2.7.1                 parabricks/4.2.1-1            r-scrnaseq/4.3.2              trimmomatic/0.39
+biobakery_workflows/3.0.0.a.7 fastp/0.23.2                  macs3/3.0.0a6                 pepper_deepvariant/r0.8       r-shinyngs/1.8.5              trinity/2.15.0
+blast/2.15.0                  fastqc/0.12.1                 masurca/4.0.9                 pepper_deepvariant/r0.8-gpu   salmon/1.10.1                 trinity/2.15.1
+bowtie2/2.4.2                 fastspar/1.0.0                masurca/4.1.0                 picard/2.25.1                 salmon/1.9.0                  trinotate/4.0.2
+bowtie2/2.5.1                 filtlong/0.2.1                medaka/1.11.1                 picard/2.26.10                samtools/1.16                 trycycler/0.5.0
+breseq/0.38.2                 flye/2.9                      megahit/1.2.9                 plink/1.90b6.21               samtools/1.17                 trycycler/0.5.3
+busco/5.4.1                   flye/2.9.1                    metaphlan/4.0.2               plink2/2.00a2.3               signalp6/6.0-fast             trycycler/0.5.4
+busco/5.4.7                   flye/2.9.2                    metaphlan/4.0.6               polypolish/0.5.0              signalp6/6.0-slow             vcftools/0.1.16
+canu/2.1.1                    gatk4/4.2.6.1                 miniasm/0.3_r179              qiime2/2023.2                 spades/3.15.4                 viennarna/2.5.0
