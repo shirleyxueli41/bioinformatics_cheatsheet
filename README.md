@@ -11,7 +11,7 @@ source ~/.bashrc
 
 ## Have a modules.txt file to save time when module avail       
 Since the command 'module avail' takes a while to load, we can just run it once and save all the available modules on a txt file.        
-An example file is here.            
+An example file is [here](https://github.com/shirleyxueli41/cheatsheet/blob/main/modules.txt).            
 *Remember to update the modules.txt file once a while since we keep deploying new tools/pipelines*       
 ```shell
 # set alias in .bashrc file
