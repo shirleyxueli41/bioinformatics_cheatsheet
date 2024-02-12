@@ -37,3 +37,22 @@ mod
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=xue.li37@tufts.edu
 ```
+
+test GPC       
+```
+#!/bin/bash
+#SBATCH -J SJob
+#SBATCH --time=00-1:00:00
+#SABTCH -p gpu
+#SABTCH --gres=gpu:2
+#SABTCH -n 2
+#SABTCH --mem=8g
+#SABTCH --output=MyJob.%j.%N.out
+#SABTCH --error=MyJob.%j.%N.err
+#SABTCH --mail-type=ALL
+#SABTCH --mail-user=xue.li37@tufts.edu
+module load R/4.3.0
+module load anaconda/2023.07
+
+echo hello
+```
