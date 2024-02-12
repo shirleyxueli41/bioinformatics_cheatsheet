@@ -22,6 +22,18 @@ mod
 ```
 
 ## Header of script       
-```r
+```
 #!/usr/bin/env Rscript
+#!/usr/bin/env python
+
+#!/bin/bash
+#SBATCH -J test
+#SBATCH --time=00-02:00:00
+#SBATCH -p batch
+#SBATCH -n 2
+#SBATCH --mem=2g
+#SBATCH --output=MyJob.%j.%N.out
+#SBATCH --error=MyJob.%j.%N.err
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=xue.li37@tufts.edu
 ```
