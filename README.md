@@ -20,3 +20,8 @@ alias mod='cat /cluster/tufts/xli37/modules.txt'
 mod
 # This will show whatever inside the modules.txt file. 
 ```
+
+## Header of script       
+```r
+#!/usr/bin/env Rscript
+```
