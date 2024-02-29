@@ -18,7 +18,7 @@ FASTA=hg38.fa.gz
 GTF=hg38.ncbiRefSeq.gtf.gz
 
 nextflow run nf-core/rnaseq \
-    --input samplesheet_rnaseq.csv \
+    --input nfcore_rnaseq_samplesheets.csv \
     --outdir $OUTDIR \
     --fasta $FASTA \
     --gtf $GTF \
