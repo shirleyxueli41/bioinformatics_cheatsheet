@@ -62,7 +62,12 @@ Bash script with GPU
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=xue.li37@tufts.edu
 echo hello
+```      
+GPU can also be set to `preempt` which will dequeue faster, but have a risk of being cancelled before completed. 
 ```
+#SBATCH -p preempt
+```
+
 
 
 Python script
