@@ -1,6 +1,6 @@
 # Cheatsheet for Linux Tricks
-Author: Shirley Li
-Date: 2024-03
+Author: Shirley Li       
+Date: 2024-03        
 Email: xue.li37@tufts.edu
 
 
