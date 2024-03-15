@@ -11,8 +11,8 @@ vi ~/.bashrc
 
 # add the following text at the end
 alias qstat='squeue -u xli37'
-alias ish='srun -p interactive -n 1 --time=02:00:00 --mem 20g --pty bash'
-alias ishgpu='srun -p preempt -n 1 --time=02:00:00 --mem=50G --gres=gpu:1 --pty /bin/bash'
+alias ish='srun -p interactive -n 1 --time=04:00:00 --mem 20g --pty bash'
+alias ishgpu='srun -p preempt -n 1 --time=04:00:00 --mem=20G --gres=gpu:1 --pty /bin/bash'
 
 # Then do this
 source ~/.bashrc
