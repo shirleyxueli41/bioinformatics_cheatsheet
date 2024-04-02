@@ -10,4 +10,4 @@
 
 
 test1
-remote
+local
