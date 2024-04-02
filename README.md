@@ -9,6 +9,4 @@
 ## Bioinformatics tools
 
 
-test1
-
 test2
