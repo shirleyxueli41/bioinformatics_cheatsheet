@@ -10,7 +10,7 @@
 #SBATCH --mail-user=name@tufts.edu
 
 module load singularity/3.8.4
-module load nf-core/2.10
+module load nf-core-taxprofiler/1.1.6 
 
 OUTDIR=/path/to/output/
 
