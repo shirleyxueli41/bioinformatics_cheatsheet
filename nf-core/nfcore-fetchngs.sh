@@ -9,7 +9,6 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=name@tufts.edu
 
-
 module load  nf-core-fetchngs/1.12.0 
 
 fetchngs -profile tufts \
