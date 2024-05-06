@@ -1,3 +1,5 @@
+# Slurm script               
+```
 #!/bin/bash
 #SBATCH -J fetchngs
 #SBATCH --time=4:00:00
@@ -17,3 +19,4 @@ fetchngs -profile tufts \
         --nf_core_pipeline rnaseq \
         --outdir ./fetchngsout
 
+```
