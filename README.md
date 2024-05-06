@@ -1,13 +1,2 @@
-# A repo for cheatsheets for Bioinformatics
+# A repo for cheatsheets for Bioinformatics, tailored to Tufts HPC
 
-## Linux
-
-## Tufts HPC
-
-## Slurm scripts to run jobs
-
-## Bioinformatics tools
-
-
-test1
-locallocal
