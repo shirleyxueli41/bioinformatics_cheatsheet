@@ -14,15 +14,47 @@ xue.li37@tufts.edu
 * Facets: Plotting small multiples.     
 
 
+
 ## ggplot2 layers     
 
 
 # Aesthetics       
- 
+| Aesthetics | Description                                          |
+|------------|------------------------------------------------------|
+| x          | x-axis position                                      |
+| y          | y-axis position                                      |
+| fill       | fill color                                           |
+| color      | color of points, outlines of other geoms             |
+| size       | Area or radius of points, thickness of lines         |       
+| alpha      | Transparency                                         |       
+| linetype   | line dash pattern                                    |       
+| labels     | Text on a plot or axes                               |       
+| shape      | Shape                                                |       
+       
+
+# Attributes       
+
+
+## Positions      
+Adjustment for overlapping     
+
+## Scale functions     
+scale_x_*()    
+### the limit argument
+### the breaks argument  
+
+### Aesthetics best practices     
+Form follows function    
+
+
+
 # Geometries         
 
 # Themes         
-
+Three types:    
+text: element_text()    
+line: element_line()   
+rectangle: element_rect()    
 
 # Tricks of ggplot2       
 ## Reordering graphs      
@@ -64,5 +96,13 @@ ggplot(data, aes(x=`Social support`, y=`GDP per capita`)) +
 
 
 
+
+```
+
+
+
+
+```r
+theme_set(theme_classic())
 
 ```
