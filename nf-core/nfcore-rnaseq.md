@@ -1,6 +1,6 @@
 # Slurm script           
 ```
-#!/bin/bash
+#!/bin/bash -l
 #SBATCH -J nfcore_rnaseq
 #SBATCH --time=24:00:00
 #SBATCH -p batch
@@ -12,7 +12,7 @@
 #SBATCH --mail-user=name@tufts.edu
 
 module load singularity/3.8.4
-module load nf-core-taxprofiler/1.1.6 
+module load nf-core/2.13.1 
 
 OUTDIR=/path/to/output/
 
@@ -20,14 +20,14 @@ FASTA=hg38.fa.gz
 GTF=hg38.ncbiRefSeq.gtf.gz
 
 nextflow run nf-core/rnaseq \
-    --input nfcore_rnaseq_samplesheets.csv \
+    --input samplesheets.csv \
     --outdir $OUTDIR \
     --fasta $FASTA \
     --gtf $GTF \
     -profile tufts 
 ```
 
-Samplesheets.csv                
+# samplesheets.csv                
 ```
 sample,fastq_1,fastq_2,strandedness
 A549_GFPkd_1,SRX1693951_SRR3362661_1.fastq.gz,SRX1693951_SRR3362661_2.fastq.gz,auto
