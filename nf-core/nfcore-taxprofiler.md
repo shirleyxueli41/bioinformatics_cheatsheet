@@ -14,11 +14,10 @@
 #SBATCH --mail-user=email
 
 
-module load nf-core/2.10 
+module load nf-core/2.13.1
 module load nf-core-taxprofiler/1.1.6 
 
-
-OUTDIR=/cluster/tufts/xli37/research/naz/analysis/Illumina_taxprofiler/out/
+OUTDIR=/your/output/dir/
 taxprofiler \
    -profile tufts \
    --input samplesheet.csv \
@@ -27,8 +26,7 @@ taxprofiler \
    --run_kraken2 --run_metaphlan \
    --kraken2_save_reads \
    --kraken2_save_readclassifications \
-   --run_kaiju --run_diamond \
-   -resume 
+   --run_kaiju --run_diamond 
 ```
 
 database.csv file
