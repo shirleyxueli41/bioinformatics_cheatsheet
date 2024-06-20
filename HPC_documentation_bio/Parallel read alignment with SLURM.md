@@ -96,4 +96,4 @@ chmod +x submit_jobs.sh
 ```
 
 # Conclusion
-By following this documentation, you can efficiently run read alignment for multiple samples in parallel on an HPC cluster using SLURM. This approach optimizes resource usage and reduces the overall processing time for large datasets.#
+By following this documentation, you can efficiently run read alignment for multiple samples in parallel on an HPC cluster using SLURM. This approach optimizes resource usage and reduces the overall processing time for large datasets.
